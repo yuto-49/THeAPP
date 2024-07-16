@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		115C16D12C46032400A30C89 /* THeAPPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115C16D02C46032400A30C89 /* THeAPPApp.swift */; };
+		115C16D32C46032400A30C89 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115C16D22C46032400A30C89 /* ContentView.swift */; };
+		115C16D52C46032600A30C89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 115C16D42C46032600A30C89 /* Assets.xcassets */; };
+		115C16D82C46032600A30C89 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 115C16D72C46032600A30C89 /* Preview Assets.xcassets */; };
+		115C16E22C46032600A30C89 /* THeAPPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115C16E12C46032600A30C89 /* THeAPPTests.swift */; };
+		115C16EC2C46032600A30C89 /* THeAPPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115C16EB2C46032600A30C89 /* THeAPPUITests.swift */; };
+		115C16EE2C46032600A30C89 /* THeAPPUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115C16ED2C46032600A30C89 /* THeAPPUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		115C16DE2C46032600A30C89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 115C16C52C46032400A30C89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 115C16CC2C46032400A30C89;
+			remoteInfo = THeAPP;
+		};
+		115C16E82C46032600A30C89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 115C16C52C46032400A30C89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 115C16CC2C46032400A30C89;
+			remoteInfo = THeAPP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		115C16CD2C46032400A30C89 /* THeAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = THeAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		115C16D02C46032400A30C89 /* THeAPPApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = THeAPPApp.swift; sourceTree = "<group>"; };
+		115C16D22C46032400A30C89 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		115C16D42C46032600A30C89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		115C16D72C46032600A30C89 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		115C16DD2C46032600A30C89 /* THeAPPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = THeAPPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		115C16E12C46032600A30C89 /* THeAPPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = THeAPPTests.swift; sourceTree = "<group>"; };
+		115C16E72C46032600A30C89 /* THeAPPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = THeAPPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		115C16EB2C46032600A30C89 /* THeAPPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = THeAPPUITests.swift; sourceTree = "<group>"; };
+		115C16ED2C46032600A30C89 /* THeAPPUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = THeAPPUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		115C16CA2C46032400A30C89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		115C16DA2C46032600A30C89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		115C16E42C46032600A30C89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		115C16C42C46032400A30C89 = {
+			isa = PBXGroup;
+			children = (
+				115C16CF2C46032400A30C89 /* THeAPP */,
+				115C16E02C46032600A30C89 /* THeAPPTests */,
+				115C16EA2C46032600A30C89 /* THeAPPUITests */,
+				115C16CE2C46032400A30C89 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		115C16CE2C46032400A30C89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				115C16CD2C46032400A30C89 /* THeAPP.app */,
+				115C16DD2C46032600A30C89 /* THeAPPTests.xctest */,
+				115C16E72C46032600A30C89 /* THeAPPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		115C16CF2C46032400A30C89 /* THeAPP */ = {
+			isa = PBXGroup;
+			children = (
+				115C16D02C46032400A30C89 /* THeAPPApp.swift */,
+				115C16D22C46032400A30C89 /* ContentView.swift */,
+				115C16D42C46032600A30C89 /* Assets.xcassets */,
+				115C16D62C46032600A30C89 /* Preview Content */,
+			);
+			path = THeAPP;
+			sourceTree = "<group>";
+		};
+		115C16D62C46032600A30C89 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				115C16D72C46032600A30C89 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		115C16E02C46032600A30C89 /* THeAPPTests */ = {
+			isa = PBXGroup;
+			children = (
+				115C16E12C46032600A30C89 /* THeAPPTests.swift */,
+			);
+			path = THeAPPTests;
+			sourceTree = "<group>";
+		};
+		115C16EA2C46032600A30C89 /* THeAPPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				115C16EB2C46032600A30C89 /* THeAPPUITests.swift */,
+				115C16ED2C46032600A30C89 /* THeAPPUITestsLaunchTests.swift */,
+			);
+			path = THeAPPUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		115C16CC2C46032400A30C89 /* THeAPP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 115C16F12C46032600A30C89 /* Build configuration list for PBXNativeTarget "THeAPP" */;
+			buildPhases = (
+				115C16C92C46032400A30C89 /* Sources */,
+				115C16CA2C46032400A30C89 /* Frameworks */,
+				115C16CB2C46032400A30C89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = THeAPP;
+			productName = THeAPP;
+			productReference = 115C16CD2C46032400A30C89 /* THeAPP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		115C16DC2C46032600A30C89 /* THeAPPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 115C16F42C46032600A30C89 /* Build configuration list for PBXNativeTarget "THeAPPTests" */;
+			buildPhases = (
+				115C16D92C46032600A30C89 /* Sources */,
+				115C16DA2C46032600A30C89 /* Frameworks */,
+				115C16DB2C46032600A30C89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				115C16DF2C46032600A30C89 /* PBXTargetDependency */,
+			);
+			name = THeAPPTests;
+			productName = THeAPPTests;
+			productReference = 115C16DD2C46032600A30C89 /* THeAPPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		115C16E62C46032600A30C89 /* THeAPPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 115C16F72C46032600A30C89 /* Build configuration list for PBXNativeTarget "THeAPPUITests" */;
+			buildPhases = (
+				115C16E32C46032600A30C89 /* Sources */,
+				115C16E42C46032600A30C89 /* Frameworks */,
+				115C16E52C46032600A30C89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				115C16E92C46032600A30C89 /* PBXTargetDependency */,
+			);
+			name = THeAPPUITests;
+			productName = THeAPPUITests;
+			productReference = 115C16E72C46032600A30C89 /* THeAPPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		115C16C52C46032400A30C89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					115C16CC2C46032400A30C89 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					115C16DC2C46032600A30C89 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 115C16CC2C46032400A30C89;
+					};
+					115C16E62C46032600A30C89 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 115C16CC2C46032400A30C89;
+					};
+				};
+			};
+			buildConfigurationList = 115C16C82C46032400A30C89 /* Build configuration list for PBXProject "THeAPP" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 115C16C42C46032400A30C89;
+			productRefGroup = 115C16CE2C46032400A30C89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				115C16CC2C46032400A30C89 /* THeAPP */,
+				115C16DC2C46032600A30C89 /* THeAPPTests */,
+				115C16E62C46032600A30C89 /* THeAPPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		115C16CB2C46032400A30C89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				115C16D82C46032600A30C89 /* Preview Assets.xcassets in Resources */,
+				115C16D52C46032600A30C89 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		115C16DB2C46032600A30C89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		115C16E52C46032600A30C89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		115C16C92C46032400A30C89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				115C16D32C46032400A30C89 /* ContentView.swift in Sources */,
+				115C16D12C46032400A30C89 /* THeAPPApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		115C16D92C46032600A30C89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				115C16E22C46032600A30C89 /* THeAPPTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		115C16E32C46032600A30C89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				115C16EE2C46032600A30C89 /* THeAPPUITestsLaunchTests.swift in Sources */,
+				115C16EC2C46032600A30C89 /* THeAPPUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		115C16DF2C46032600A30C89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 115C16CC2C46032400A30C89 /* THeAPP */;
+			targetProxy = 115C16DE2C46032600A30C89 /* PBXContainerItemProxy */;
+		};
+		115C16E92C46032600A30C89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 115C16CC2C46032400A30C89 /* THeAPP */;
+			targetProxy = 115C16E82C46032600A30C89 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		115C16EF2C46032600A30C89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		115C16F02C46032600A30C89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		115C16F22C46032600A30C89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"THeAPP/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tutorialMY.THeAPP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		115C16F32C46032600A30C89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"THeAPP/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tutorialMY.THeAPP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		115C16F52C46032600A30C89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tutorialMY.THeAPPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/THeAPP.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/THeAPP";
+			};
+			name = Debug;
+		};
+		115C16F62C46032600A30C89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tutorialMY.THeAPPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/THeAPP.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/THeAPP";
+			};
+			name = Release;
+		};
+		115C16F82C46032600A30C89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tutorialMY.THeAPPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = THeAPP;
+			};
+			name = Debug;
+		};
+		115C16F92C46032600A30C89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tutorialMY.THeAPPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = THeAPP;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		115C16C82C46032400A30C89 /* Build configuration list for PBXProject "THeAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				115C16EF2C46032600A30C89 /* Debug */,
+				115C16F02C46032600A30C89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		115C16F12C46032600A30C89 /* Build configuration list for PBXNativeTarget "THeAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				115C16F22C46032600A30C89 /* Debug */,
+				115C16F32C46032600A30C89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		115C16F42C46032600A30C89 /* Build configuration list for PBXNativeTarget "THeAPPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				115C16F52C46032600A30C89 /* Debug */,
+				115C16F62C46032600A30C89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		115C16F72C46032600A30C89 /* Build configuration list for PBXNativeTarget "THeAPPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				115C16F82C46032600A30C89 /* Debug */,
+				115C16F92C46032600A30C89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 115C16C52C46032400A30C89 /* Project object */;
+}
